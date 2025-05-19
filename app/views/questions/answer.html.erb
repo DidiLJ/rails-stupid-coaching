@@ -1,0 +1,19 @@
+<div class="container mt-5">
+  <h1 class="mb-4">Stupid Coaching</h1>
+
+  <div class="question mb-4">
+    <div class="message">
+      <p><%= @question %></p>
+      <p class="signature">—You</p>
+    </div>
+  </div>
+
+  <div class="coach mb-4">
+    <div class="message">
+      <p><%= @answer %></p>
+      <p class="signature">—Your coach</p>
+    </div>
+  </div>
+
+  <%= link_to "Ask a new question", root_path, class: "btn btn-link pl-0" %>
+</div>
